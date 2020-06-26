@@ -1,0 +1,54 @@
+.body{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 350px;
+    background-color: orange;
+}
+.main{
+    padding-bottom: 5px;
+}
+.header {
+    background-color: black;
+}
+.name {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.input{
+    font-size: 30px;
+    margin: 5px;
+    margin-bottom: 10px;
+    width: 330px;
+    height: 50px;
+    
+}
+.footer{
+    padding: 5px;
+}
+.btn1{
+    padding: 5px;
+    color: yellow;
+    font-size: 20px;
+    align-content: center;
+ width: 160px;
+ margin-bottom: 3px;
+ background-color: black;
+}
+.btn,.btn2{
+    font-size: 50px;
+    color: yellow;
+    background-color: #545454;
+    margin-bottom: 3px;
+    margin: 1px;
+    padding: 3px;
+    width: 77px;
+}
+.btn2{
+    background-color: black !important;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
