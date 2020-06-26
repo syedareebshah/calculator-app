@@ -10,7 +10,11 @@ function result(){
     var result = document.getElementById('num');
     result.value = eval(result.value);
 }
-function backspace(num){
-    var pop = document.getElementById('num');
-    pop.value = pop(pop.value)
+function back(){
+    var val = document.getElementById('num');
+    var nval = val.value;
+    nval = nval.split("")
+    nval.pop();
+    nval = nval.join("")
+    val.value = nval
 }
